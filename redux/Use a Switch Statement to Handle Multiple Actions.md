@@ -21,7 +21,7 @@ switch (action.type) {
   default:
    return state;
 
-}```
+}
   // change code above this line
 };
 
