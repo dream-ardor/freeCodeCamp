@@ -4,6 +4,7 @@ Note: At this point, don't worry about state immutability, since it is small and
 
 SOLUTION:
 
+```javascript
 const defaultState = {
   authenticated: false
 };
@@ -20,7 +21,7 @@ switch (action.type) {
   default:
    return state;
 
-}
+}```
   // change code above this line
 };
 
