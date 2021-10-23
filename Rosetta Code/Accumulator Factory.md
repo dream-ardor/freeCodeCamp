@@ -13,4 +13,7 @@ function accumulator (sum) {
   return sum += n
  } 
 }
+
+//alternate solution
+const accumulator = sum => function(n) => sum += n;
 ```
